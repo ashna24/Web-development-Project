@@ -1,0 +1,785 @@
+/* primary nav bar styling */
+.primary_nav {    
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333333;
+    overflow: hidden;
+} 
+/* secondary nav bar styling */
+.secondary_nav {
+    background-color: rgba(101, 178, 230, 0.8);
+    color: #333333;
+    overflow: hidden;
+}
+
+.primary_nav ul,
+.secondary_nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.primary_nav ul li,
+.secondary_nav ul li a {
+    float: left;
+    margin: 3%;
+    margin: 0 10px;
+}
+
+.primary_nav li a,
+.secondary_nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.primary_nav ul li a:hover,
+.secondary_nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+body {
+    margin: 0;
+}
+/* styling all h1 tags */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* styling all h2 tags */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+/* main image */
+.first {
+    position: relative;
+}
+
+.first img {
+    width: 100%;
+    height: auto;
+}
+/* styling the text on top of image */
+.first-text {
+    position: absolute;
+    top: 30%;
+    color: #000000;
+    padding: 20px;
+}
+
+.first-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    color: aliceblue;
+    padding: 150px;
+}
+
+.c1 {
+    font-size: 200%;
+}
+
+.about_us {
+    /* about us text styling*/
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(243, 252, 254);
+    padding: 10%;
+    line-height: 1.0cm;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.cont
+
+/* news and events image and text styling*/
+    {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 100px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 3px solid #000000;
+
+}
+
+.cont img {
+    width: 250px;
+    height: 260px;
+}
+
+.cont p {
+    /* news and events box text styling*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.sub
+
+/* news and events green box*/
+    {
+    background-color: rgb(54, 123, 139);
+    padding: 10%;
+}
+
+.sub h1 {
+    color: #FFFFFF;
+}
+
+.sub .cont {
+    /*  hover effect on the box*/
+    transition: transform 0.3s ease-in-out;
+}
+
+.sub .cont:hover {
+    transform: scale(1.1);
+    border: 3px solid #333333;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+
+}
+
+.donation {
+    grid-template-columns: auto auto;
+    display: grid;
+    gap: 15px;
+    font-size: large;
+    padding: 5%;
+    background-color: rgb(105, 56, 45);
+}
+
+.d1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* donation text styling*/
+    line-height: 1.0cm;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video video {
+    max-width: 45%;
+    height: 400px;
+    margin: 40px;
+    object-fit: cover;
+
+}
+
+.video-text {
+    background-color: #1d6167;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    line-height: 1.0cm;
+    margin: 3%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+button {
+    /* button styles */
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #636262b6;
+
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/*Donation page styling*/
+
+.video-container {
+    /* text on background video styling*/
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.background-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* to cover the video completely on screen in ratio*/
+}
+
+.vid-pos {
+    position: absolute;
+    top: 50%;
+    /* setting the top and left position to the center*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    /*  text on video styling*/
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.donation-bar
+
+/* why should you donate to us box styling*/
+    {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    font-family: sans-serif;
+    gap: 25px;
+}
+
+.donation-img
+
+/* container image styling */
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.donation-text {
+    line-height: 1.5;
+    font-size: 0.5cm;
+    padding: 10px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movable
+
+/* styling of box that moves with the page*/
+    {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #007bff;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+
+.movable a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.movable:hover {
+    text-decoration: underline;
+}
+.bank-info
+
+/* styling of bank account information green box*/
+    {
+    background-color: #1d6167;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.bank-info h1 {
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bank-info span {
+    color: #FFFFFF;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.0cm;
+}
+
+.form-container
+/* form container styling */
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type="submit"]
+
+/* submit button styling */
+{
+    background-color: rgba(101, 178, 230, 0.8);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover
+
+/* submit button on hover */
+{
+    background-color: rgba(120, 185, 239, 1.8);
+}
+
+
+label {
+    /* form labels */
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+input[type="text"],
+/* input fields */
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #676161;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+.donate-now {
+    background-image: url(//Assets/Images/kids2.jpg);
+}
+
+/* CONTACT US PAGE STYLING*/
+.form-input
+/* form styling*/
+    {
+    width: 35%;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+
+.form-input input[type="text"],
+.form-input input[type="email"],
+.form-input textarea {
+    width: 100%;
+    padding: 8px;
+    border: #000000 solid 1px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.form-input button {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+}
+
+.form-input button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: rgba(101, 178, 230, 0.8);
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: larger;
+    line-height: 0.7cm;
+    padding: 30px;
+}
+
+aside {
+    background-color: rgb(243, 252, 254);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 380px;
+    right: 10px;
+    width: 25%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-section h2 {
+    font-size: 30px;
+    color: #141414;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.faq-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+}
+
+.blue-hands {
+    background-image: url(/Assets/Images/bluehands-2.jpeg);
+}
+
+.contact h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* OUR SERVICES PAGE STYLING*/
+.animals {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    gap: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 0.8cm;
+    background-color: #1d6167;
+    color: #fff;
+    margin: 4%;
+    padding: 3%;
+}
+
+.animal-video {
+    display: flex;
+
+}
+
+.animal-video video {
+    width: 500px;
+}
+
+.container-main
+
+/* main container box*/
+    {
+    display: flex;
+}
+
+.box
+
+/* each box styling*/
+    {
+    padding: 2%;
+    border: 2px solid #000000;
+    margin: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.0cm;
+    font-size: larger;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 30px;
+    background-color: #1979de;
+    color: #FFFFFF;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    border: 7px solid #ffffff;
+}
+
+/* About us page styling*/
+.founders {
+    display: flex;
+    background-image: url(//Assets/Images/dogcage.jpeg);
+}
+
+.founder-info img {
+    width: 100%;
+}
+
+.founder-info {
+    border: #000000 5px solid;
+    margin: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 0.7cm;
+    text-align: left;
+}
+/* footer */
+
+.footer-container {
+    background-color: #1d6167;
+    color: #ffffff;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.footer-content {
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-content p {
+    width: 200px;
+    padding: 5px;
+    font-size: medium;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    line-height: 0.9cm;
+    text-align: center;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-content ul li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.bottom-content {
+    color: #000000;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.icons i {
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.icons a {
+    margin: 0 20px;
+    color: #ffffff;
+}
+
+.icons a:hover {
+    color: #007bff;
+}
+
+/* ADDING MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) {
+
+.primary_nav ul,
+/* Navigation media queries */
+.secondary_nav ul {
+    flex-direction: row;
+    align-items: left;
+    padding: 0;
+    font-size: small;
+}
+
+.primary_nav ul li,
+.secondary_nav ul li {
+    float: none;
+}
+
+footer {
+/* Footer media queries*/
+     text-align: center;
+}
+
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom-content {
+    text-align: center;
+
+}
+/* for index page*/
+.first-text {
+    padding: 5px;
+    top: 10%;
+    font-size: smaller;
+}
+
+.container,
+/* donation bar queries */
+.cont,
+.donation {
+    padding: 30px;
+    grid-template-columns: auto;
+}
+
+.cont img,
+.donation img {
+/* setting all images */
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    flex-direction: row;
+     align-items: center;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+button {
+/* Button */
+     width: 100%;
+     margin: 10px 0;
+}
+
+.d1 {
+    text-align: justify;
+}
+
+/* FOR ABOUT US PAGE */
+
+.founders {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.founder-info,
+.founder-info img {
+    width: 100%;
+}
+
+/* for donation page */
+
+.donation-bar {
+    grid-template-columns: auto;
+}
+
+.bank-info {
+     width: 79%;
+    margin: 0 auto;
+}
+
+.form-container {
+    width: 90%;
+}
+
+    /* Our Services page */
+.container-main {
+    flex-direction: row;
+}
+
+.box {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.animals {
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 2%;
+}
+
+.animal-video video {
+    width: 100%;
+    height: auto;
+}
+
+    /* contact us page */
+
+.form-input {
+    width: 80%;
+}
+
+.form-input input[type="text"],
+.form-input input[type="email"],
+.form-input textarea {
+    width: 100%;
+}
+
+aside {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+    }
+
+.blue-hands h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact {
+    margin: 30px;
+    font-size: 15px;
+}
+}
