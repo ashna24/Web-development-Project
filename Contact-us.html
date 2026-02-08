@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Assets/CSS/styles.css" rel="stylesheet"  type="text/CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="Assets/Javascript/java.js"></script>
+    <title>WellnessWave</title>
+</head>
+<header>
+   
+    <nav class="primary_nav">  <!--primary navigation bar-->
+       <ul>
+
+        <li><img src="Assets/Images/logofi.jpeg" alt="logo" width="200px" height="200px" style="border-radius: 50%;"></li>
+        </ul>
+
+    </nav>
+    <nav class="secondary_nav">  <!--secondary navigation bar-->
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about-us.html"> ABOUT US</a></li>
+            <li><a href="Donation.html">DONATION</a></li>
+            <li><a href="our-services.html">OUR SERVICES</a></li>
+            <li><a href="Contact-us.html">CONTACT US</a></li>
+
+        </ul>
+    </nav>
+</header>
+<body>
+    <h2>BECOME A VOLUNTEER AT WELLNESS WAVE!</h2>
+<form  onsubmit="return contactform()">   <!--adding a volunteer form -->
+
+<div class="form-input">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="fname" placeholder="Sara" required>
+</div>
+
+
+<div class="form-input">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lname" placeholder="Jones" required>
+</div>
+
+<div class="form-input">
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" placeholder="sarajones@gmail.com" required>
+</div>
+
+<div class="form-input">
+<label for="message">Which domain will you volunteer in? <br>
+    Tell us about your previous experiences(if applicable)</label>
+<textarea id="message" rows="10" ></textarea><br><br>
+<button type="submit">SUBMIT</button>
+</div>
+</form>
+<!-- aside tag with faqs-->
+<aside> 
+    <div class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li>
+                <h3>How can I volunteer with Wellness Wave?</h3>
+                <p>Volunteering with Wellness Wave is easy! You can start by filling out our online volunteer application form. Once submitted, our team will review your application and get in touch with you to discuss available opportunities that match your skills and interests.</p>
+            </li>
+            <li>
+                <h3>How can I donate to Wellness Wave?</h3>
+                <p>Donating to Wellness Wave is simple. You can make a one-time donation or set up a recurring donation through our website. Your generous contributions help support our programs and initiatives aimed at improving health outcomes in underserved communities.</p>
+            </li>
+        </ul>
+    </div>
+</aside>
+<div class="blue-hands">
+   <h1>“Volunteers don’t get paid, not because they’re worthless, but because they’re priceless.” <br><br> - Sherry Anderson” </h1>
+   <h2>---</h2>
+   <!-- contact information box -->
+</div>
+<div class="contact">
+   
+    <h1>CONTACT INFO</h1>
+    <p><b>EMAIL:</b> wellnesswave@gmail.com<br><br><b>PHONE:</b> +1 (555) 123-4567</p>
+    <p>We appreciate you taking the time to connect with our team. We strive to provide excellent service and support to everyone, and we look forward to assisting you with any questions, concerns, or feedback you may have. Our team will review your message promptly and get back to you as soon as possible. In the meantime, feel free to explore our website for more information about Wellness Wave. Thank you again for contacting us, and we're here to help in any way we can!</p>
+    
+</div>
+<div class="movable">  <!--box that moves with the page-->
+    <a href="Donation.html">
+    <h4>DONATE NOW!</h4>
+</a>
+</div>
+</body>  
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h2>CONTACT US</h2>
+            <ul>
+            <li><p><b>Phone:</b> +1 (555) 123-4567</p></li>
+            <li><p><b>Email:</b>wellnesswave@gmail.com</p></li>
+            <li><p><b>Address:</b>123 Main Street, sarlington, Pakistan</p></li>
+        </ul>
+        </div>
+        <div class="footer-content">
+            <h2>QUICK LINKS</h2>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Donation.html">Donation</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="Contact-us.html">Contact Us</a></li>
+            <li> <a href="our-services.html">Our Services</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <h2>OUR SOCIALS</h2>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="bottom-content">
+        <p> <b>Copyright &copy; 2024 Wellness Wave | All Rights Reserved</b></p>
+    </div>
+</footer>
+</html>
